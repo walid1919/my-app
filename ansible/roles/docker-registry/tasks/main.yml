@@ -3,10 +3,11 @@
   - name: "docker login"
     docker_login:
       username: walid1919
-      password: 7r9ounm3tou9
+      password: walid1919
   - name: "tag the image"
     docker_image:
       name: devops
-      repository: walid1919/my-app
+      repository: walid1919/devops
       tag: latest
+      push: yes
       source: local
