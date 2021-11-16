@@ -8,7 +8,7 @@
                         steps{ 
 
                            script{
-                             sh "ansible-playbook ansible/build.yml -i ansible/inventory/host.yml" 
+                             sh "ansible-playbook /home/walid/CD/my-app/ansible/build.yml -i /home/walid/CD/my-app/ansible/inventory/host.yml" 
                              }
 
                              }
