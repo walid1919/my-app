@@ -4,7 +4,7 @@
     docker_image: 
       name: devops
       build:
-       path: /home/walid/CD/my-app
+       path: /home/walid/CD/my-app/
        pull: no 
       source: build
       state: present
