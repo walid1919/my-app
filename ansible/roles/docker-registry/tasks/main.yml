@@ -1,5 +1,9 @@
 ---
 # tasks file for docker-registry
+  - name: "docker login"
+    docker_login:
+      username: walid1919
+      password: 7r9ounm3tou9
   - name: "tag the image"
     docker_image:
       name: devops
